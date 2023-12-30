@@ -50,7 +50,9 @@ export const skills = [
   ];
 
 
-  export const projects = [
+
+
+  export const professionalProjects = [
     {
       id: nanoid(),
       img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
@@ -76,4 +78,41 @@ export const skills = [
       text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
     },
   ];
-  
+
+
+
+
+  export const projects = [
+    {
+      id: nanoid(),
+      img: "src/assets/the-leafy-bean.jpeg",
+      url: 'https://jessicajuliet.github.io/the-leafy-bean/',
+      github: 'https://github.com/JessicaJuliet/the-leafy-bean',
+      title: 'The Leafy Bean',
+      technology: 'HTML, CSS, Bootstrap',
+    },
+    {
+      id: nanoid(),
+      img: "src/assets/irish-gold-distillers.jpeg",
+      url: 'https://jessicajuliet.github.io/irish-gold-distillers/',
+      github: 'https://github.com/JessicaJuliet/irish-gold-distillers',
+      title: 'Irish Gold Distillers',
+      technology: 'HTML, CSS, JavaScript',
+    },
+    {
+      id: nanoid(),
+      img: "src/assets/meditracker.jpeg",
+      url: 'https://meditracker-qbfi.onrender.com/',
+      github: 'https://github.com/JessicaJuliet/meditracker',
+      title: 'Meditracker',
+      technology: 'JavaScript, Python, MongoDB, Flask',
+    },
+    {
+      id: nanoid(),
+      img: "src/assets/webi.jpeg",
+      url: 'https://webi-t0p6.onrender.com/',
+      github: 'https://github.com/JessicaJuliet/webi',
+      title: 'Webi',
+      technology: 'JavaScript, Python, Django',
+    },
+  ];

@@ -3,12 +3,13 @@ import ProjectsCard from "./ProjectsCard";
 import { projects } from "../data";
 
 
-
 const Projects = () => {
   return (
-    <section className="py-20 align-element" id="projects">
-        <SectionTitle text="Web Creations" />
-        <div className="py-16 grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
+    <section className="bg-white py-20" id="projects">
+        <div className="align-element">
+            <SectionTitle text="Academic Projects" />
+        </div>
+        <div className="align-element py-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {projects.map((project) => {
                 return <ProjectsCard key={project.id} {...project} />                
             })}
