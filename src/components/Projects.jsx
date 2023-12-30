@@ -5,7 +5,7 @@ import { projects } from "../data";
 
 const Projects = () => {
   return (
-    <section className="bg-white py-20" id="projects">
+    <section className="bg-white py-20">
         <div className="align-element">
             <SectionTitle text="Academic Projects" />
         </div>
