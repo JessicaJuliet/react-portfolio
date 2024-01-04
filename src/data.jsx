@@ -1,11 +1,16 @@
 import {nanoid} from "nanoid";
 import {FaHtml5, FaJs, FaReact, FaSass, FaShopify, FaGitAlt, FaGlide} from "react-icons/fa";
+// Professional projects
 import blogImg from "../src/assets/blog-project.jpg";
 import coordinatesImg from "../src/assets/coordinate-project.jpg";
 import limitedImg from "../src/assets/grey-diamond-release.jpg";
 import engagementImg from "../src/assets/engagement-lp-project.jpg";
 import educationImg from "../src/assets/education-article-project.jpg";
-
+// Academic Projects
+import leafyBeanImg from "../src/assets/the-leafy-bean.jpeg";
+import goldDistillersImg from "../src/assets/irish-gold-distillers.jpeg";
+import meditrackerImg from "../src/assets/meditracker.jpeg";
+import webiImg from "../src/assets/webi.jpeg";
 
 export const links = [
     {id: nanoid(), href: "#home", text:"Home"},
@@ -112,7 +117,7 @@ export const skills = [
   export const projects = [
     {
       id: nanoid(),
-      img: "src/assets/the-leafy-bean.jpeg",
+      img: leafyBeanImg,
       url: 'https://jessicajuliet.github.io/the-leafy-bean/',
       github: 'https://github.com/JessicaJuliet/the-leafy-bean',
       title: 'The Leafy Bean',
@@ -120,7 +125,7 @@ export const skills = [
     },
     {
       id: nanoid(),
-      img: "src/assets/irish-gold-distillers.jpeg",
+      img: goldDistillersImg,
       url: 'https://jessicajuliet.github.io/irish-gold-distillers/',
       github: 'https://github.com/JessicaJuliet/irish-gold-distillers',
       title: 'Irish Gold Distillers',
@@ -128,7 +133,7 @@ export const skills = [
     },
     {
       id: nanoid(),
-      img: "src/assets/meditracker.jpeg",
+      img: meditrackerImg,
       url: 'https://meditracker-qbfi.onrender.com/',
       github: 'https://github.com/JessicaJuliet/meditracker',
       title: 'Meditracker',
@@ -136,7 +141,7 @@ export const skills = [
     },
     {
       id: nanoid(),
-      img: "src/assets/webi.jpeg",
+      img: webiImg,
       url: 'https://webi-t0p6.onrender.com/',
       github: 'https://github.com/JessicaJuliet/webi',
       title: 'Webi',
