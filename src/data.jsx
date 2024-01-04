@@ -55,7 +55,7 @@ export const skills = [
   export const professionalProjects = [
     {
       id: nanoid(),
-      img: "src/assets/blog-project.jpg",
+      img: "/public/blog-project.jpg",
       url: 'https://www.chupi.com/blog',
       github: 'https://github.com/jessicaJuliet',
       title: 'Shopify Blog',
@@ -64,7 +64,7 @@ export const skills = [
     },
     {
       id: nanoid(),
-      img: "src/assets/coordinate-project.jpg",
+      img: "/public/coordinate-project.jpg",
       url: 'https://www.chupi.com/products/solid-gold-a-moment-in-time-coordinate-ring',
       github: 'https://github.com/jessicaJuliet',
       title: 'Coordinate Product Template',
@@ -73,7 +73,7 @@ export const skills = [
     },
     {
       id: nanoid(),
-      img: "src/assets/grey-diamond-release.jpg",
+      img: "/public/grey-diamond-release.jpg",
       url: 'https://www.chupi.com/products/solid-gold-you-me-magic-one-carat-grey-diamond-classic-diamond-polished-band-ring',
       github: 'https://github.com/jessicaJuliet',
       title: 'Limited Edition Release',
@@ -82,7 +82,7 @@ export const skills = [
     },
     {
       id: nanoid(),
-      img: "src/assets/engagement-lp-project.jpg",
+      img: "/public/engagement-lp-project.jpg",
       url: 'https://www.chupi.com/pages/engagement',
       github: 'https://github.com/jessicaJuliet',
       title: 'Engagement Landing Page',
@@ -91,7 +91,7 @@ export const skills = [
     },
     {
       id: nanoid(),
-      img: "src/assets/education-article-project.jpg",
+      img: "/public/education-article-project.jpg",
       url: 'https://www.chupi.com/pages/education',
       github: 'https://github.com/jessicaJuliet',
       title: 'Education Articles',
@@ -106,7 +106,7 @@ export const skills = [
   export const projects = [
     {
       id: nanoid(),
-      img: "src/assets/the-leafy-bean.jpeg",
+      img: "/public/the-leafy-bean.jpeg",
       url: 'https://jessicajuliet.github.io/the-leafy-bean/',
       github: 'https://github.com/JessicaJuliet/the-leafy-bean',
       title: 'The Leafy Bean',
@@ -114,7 +114,7 @@ export const skills = [
     },
     {
       id: nanoid(),
-      img: "src/assets/irish-gold-distillers.jpeg",
+      img: "/public/irish-gold-distillers.jpeg",
       url: 'https://jessicajuliet.github.io/irish-gold-distillers/',
       github: 'https://github.com/JessicaJuliet/irish-gold-distillers',
       title: 'Irish Gold Distillers',
@@ -122,7 +122,7 @@ export const skills = [
     },
     {
       id: nanoid(),
-      img: "src/assets/meditracker.jpeg",
+      img: "/public/meditracker.jpeg",
       url: 'https://meditracker-qbfi.onrender.com/',
       github: 'https://github.com/JessicaJuliet/meditracker',
       title: 'Meditracker',
@@ -130,7 +130,7 @@ export const skills = [
     },
     {
       id: nanoid(),
-      img: "src/assets/webi.jpeg",
+      img: "/public/webi.jpeg",
       url: 'https://webi-t0p6.onrender.com/',
       github: 'https://github.com/JessicaJuliet/webi',
       title: 'Webi',

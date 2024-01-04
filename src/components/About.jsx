@@ -1,5 +1,5 @@
 import SectionTitle from './SectionTitle';
-import aboutSvg from "../assets/about.svg"
+import aboutSvg from "/public/about.svg"
 
 
 const About = () => {
