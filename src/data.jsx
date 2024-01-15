@@ -1,16 +1,21 @@
 import {nanoid} from "nanoid";
 import {FaHtml5, FaJs, FaReact, FaSass, FaShopify, FaGitAlt, FaGlide} from "react-icons/fa";
+
 // Professional projects
 import blogImg from "../src/assets/blog-project.jpg";
 import coordinatesImg from "../src/assets/coordinate-project.jpg";
 import limitedImg from "../src/assets/grey-diamond-release.jpg";
 import engagementImg from "../src/assets/engagement-lp-project.jpg";
 import educationImg from "../src/assets/education-article-project.jpg";
+
 // Academic Projects
 import leafyBeanImg from "../src/assets/the-leafy-bean.jpeg";
 import goldDistillersImg from "../src/assets/irish-gold-distillers.jpeg";
 import meditrackerImg from "../src/assets/meditracker.jpeg";
 import webiImg from "../src/assets/webi.jpeg";
+
+
+
 
 export const links = [
     {id: nanoid(), href: "/", text:"Home"},
@@ -119,7 +124,7 @@ export const skills = [
 
 
 
-  export const projects = [
+  export const academicProjects = [
     {
       id: nanoid(),
       img: leafyBeanImg,
