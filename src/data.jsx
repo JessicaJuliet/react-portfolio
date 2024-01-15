@@ -72,7 +72,7 @@ export const skills = [
       github: 'https://github.com/jessicaJuliet',
       title: 'Shopify Blog',
       technology: 'HTML, CSS, JavaScript, SCSS, Liquid, Shopify, Matrixify',
-      text: 'Developed a fully responsive blog on Shopify, migrating the existing blog content from WordPress, in order to streamline website management. Consulted marketing ahead for buy-in and ensured timely project completion.',
+      text: 'Developed a fully responsive blog on Shopify, migrating the existing blog from WordPress, in order to streamline website management.',
     },
     {
       id: nanoid(),
@@ -82,7 +82,7 @@ export const skills = [
       github: 'https://github.com/jessicaJuliet',
       title: 'Coordinate Product Template',
       technology: 'HTML, CSS, JavaScript, SCSS, Liquid, Shopify, Geocoding API',
-      text: 'Worked closely with Senior Developer and UX team to develop a new product template to faciliate manual DMS coordinate input. Mapped out user journeys and implemented feedback responses, such as real-time form validation.',
+      text: 'Built a new product template to faciliate the input of DMS coordinates. Mapped out user journeys and implemented real-time form validation.',
     },
     {
       id: nanoid(),
@@ -92,7 +92,7 @@ export const skills = [
       github: 'https://github.com/jessicaJuliet',
       title: 'Limited Edition Release',
       technology: 'HTML, CSS, JavaScript, Liquid, Shopify',
-      text: 'Designed a Limited Edition product template for Grey Diamonds which dynamically tracks Grey Diamond stock, displaying a countdown to the next release, and allows users to sign up for notifications and book appointments.',
+      text: 'Created a limited edition template which dynamically tracked stock, displaying a countdown to the next release, and allowed users to sign up and book appointments.',
     },
     {
       id: nanoid(),
@@ -102,7 +102,7 @@ export const skills = [
       github: 'https://github.com/jessicaJuliet',
       title: 'Engagement Landing Page',
       technology: 'HTML, CSS, JavaScript, SCSS, Liquid, Shopify',
-      text: 'Developed a new Engagement page, working alongside UX designer, which includes visually appealing category blocks, detailed product material tabs and a recommended reading section.',
+      text: 'Developed a new Engagement page which included visually appealing category blocks, detailed product material tabs and a recommended reading section.',
     },
     {
       id: nanoid(),
@@ -110,9 +110,9 @@ export const skills = [
       pageLink: "/education-hub",
       url: 'https://www.chupi.com/pages/education',
       github: 'https://github.com/jessicaJuliet',
-      title: 'Education Articles',
-      technology: 'HTML, CSS, Shopify',
-      text: 'Elevated website SEO through developing four educational article pages. These blended a captivating design, with a scrolling sidebar, and strageic keyword integration to contribute to enhanced search engine visibility.',
+      title: 'Education Hub',
+      technology: 'HTML, CSS, SCSS, Liquid, Shopify',
+      text: "Crafted a resource to enrich the engagement ring buyer's experience. This blended a captivating design with strategic keywork integration to enhance SEO.",
     }
   ];
 
