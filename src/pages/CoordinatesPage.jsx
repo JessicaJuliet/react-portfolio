@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import SectionTitle from "../components/SectionTitle";
+import ProjectsSummary from '../components/projectsSummary';
 
 
 
@@ -11,6 +12,7 @@ const Coordinates = () => {
       <section>
         <div className='align-element py-16'>
           <SectionTitle text="Coordinates Template" />
+          <ProjectsSummary industry="Luxury Jewellery" date="2023" tech="HTML, CSS, JavaScript, SCSS, Liquid, Shopify, Geocoding API" />
           <div className="grid md:grid-cols-2 md:gap-16">
             <article>
               <p className='text-slate-600 mt-8 leading-loose'>
