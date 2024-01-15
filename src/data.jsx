@@ -13,10 +13,10 @@ import meditrackerImg from "../src/assets/meditracker.jpeg";
 import webiImg from "../src/assets/webi.jpeg";
 
 export const links = [
-    {id: nanoid(), href: "#home", text:"Home"},
-    {id: nanoid(), href: "#skills", text:"Skills"},
-    {id: nanoid(), href: "#about", text:"About"},
-    {id: nanoid(), href: "#projects", text:"Projects"},
+    {id: nanoid(), href: "/", text:"Home"},
+    {id: nanoid(), href: "/#skills", text:"Skills"},
+    {id: nanoid(), href: "/#about", text:"About"},
+    {id: nanoid(), href: "/#projects", text:"Projects"},
 ];
 
 
@@ -67,6 +67,7 @@ export const skills = [
     {
       id: nanoid(),
       img: blogImg,
+      pageLink: "/shopify-blog",
       url: 'https://www.chupi.com/blog',
       github: 'https://github.com/jessicaJuliet',
       title: 'Shopify Blog',
@@ -76,6 +77,7 @@ export const skills = [
     {
       id: nanoid(),
       img: coordinatesImg,
+      pageLink: "/coordinates-template",
       url: 'https://www.chupi.com/products/solid-gold-a-moment-in-time-coordinate-ring',
       github: 'https://github.com/jessicaJuliet',
       title: 'Coordinate Product Template',
@@ -85,6 +87,7 @@ export const skills = [
     {
       id: nanoid(),
       img: limitedImg,
+      pageLink: "/grey-diamond-release",
       url: 'https://www.chupi.com/products/solid-gold-you-me-magic-one-carat-grey-diamond-classic-diamond-polished-band-ring',
       github: 'https://github.com/jessicaJuliet',
       title: 'Limited Edition Release',
@@ -94,6 +97,7 @@ export const skills = [
     {
       id: nanoid(),
       img: engagementImg,
+      pageLink: "/engagement-page",
       url: 'https://www.chupi.com/pages/engagement',
       github: 'https://github.com/jessicaJuliet',
       title: 'Engagement Landing Page',
@@ -103,6 +107,7 @@ export const skills = [
     {
       id: nanoid(),
       img: educationImg,
+      pageLink: "/education-hub",
       url: 'https://www.chupi.com/pages/education',
       github: 'https://github.com/jessicaJuliet',
       title: 'Education Articles',
