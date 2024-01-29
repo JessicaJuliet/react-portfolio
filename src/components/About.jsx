@@ -10,9 +10,10 @@ const About = () => {
             <article>
                 <SectionTitle text="Get to know me" />
                 <p className='text-slate-600 mt-8 leading-loose'>
-                Enthusiastic web developer with a passion for crafting elegant and efficient digital solutions.
-                Specialising in frontend technologies, I bring creativity and precision to every project.
-                Let's turn ideas into interactive experiences!
+                  I’m a Frontend Developer who’s passionate about creating positive user experiences 
+                  through developing visually appealing and responsive user interfaces. I'm experienced in 
+                  HTML, CSS, and JavaScript and I thrive on turning innovative ideas into engaging digital 
+                  experiences!
                 </p>
 
             </article>
