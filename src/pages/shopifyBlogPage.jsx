@@ -27,7 +27,7 @@ const shopifyBlogPage = () => {
               <ProjectsSummary industry="Luxury Jewellery" date="2023" tech="HTML, CSS, Vanilla JavaScript, SCSS, Shopify, Liquid, Matrixify app, Git" />
             </div>
             <div>
-              <img className="w-96 h-96 object-cover object-top" src={blogEngagement} />
+              <img className="w-[31rem] h-[31rem] object-cover object-top" src={blogEngagement} />
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@ const shopifyBlogPage = () => {
             </p>
           </article>
 
-          <div className="m-auto grid gap-5 sm:grid-cols-2 md:grid-cols-4 md:max-w-screen-lg">
+          <div className="m-auto mt-5 grid gap-5 sm:grid-cols-2 md:grid-cols-4 md:max-w-screen-lg">
             <img src={blogMenu} alt="Blog menu" />
             <img src={blogEducation} alt="Blog education page" />
             <img src={blogArticle} alt="Blog article" />
