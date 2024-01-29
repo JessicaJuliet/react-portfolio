@@ -21,12 +21,12 @@ const Coordinates = () => {
 
           <div className='px-5 md:pt-20 md:px-16 border-b-2 border-b-black-900'>
             <div className="grid m-auto md:grid-cols-2 md:max-w-screen-lg md:gap-36">
-              <div className='pt-12'>
+              <div className='pt-16'>
                 <SectionTitle text="Coordinates Template" />
                 <ProjectsSummary industry="Luxury Jewellery" date="2023" tech="HTML, CSS, Vanilla JavaScript, SCSS, Google Geocoding API, Shopify, Liquid, Git" />
               </div>
               <div>
-                <img className="w-96 h-96 object-cover object-top" src={coordinatesProduct} />
+                <img className="w-[31rem] h-[31rem] object-cover object-top" src={coordinatesProduct} />
               </div>
             </div>
           </div>
@@ -65,7 +65,7 @@ const Coordinates = () => {
               </p>
             </article>
 
-            <div className="m-auto grid gap-5 sm:grid-cols-2 md:grid-cols-4 md:max-w-screen-lg">
+            <div className="m-auto mt-5 grid gap-5 sm:grid-cols-2 md:grid-cols-4 md:max-w-screen-lg">
               <img src={coordinatesProduct} alt="Coordinates product" />
               <img src={coordinatesInput} alt="Coordinates product" />
               <img src={coordinatesUserFeedback} alt="Coordinates product" />
