@@ -2,7 +2,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import SectionTitle from "../components/SectionTitle";
 import SectionSubtitle from "../components/SectionSubtitle";
-import ProjectsSummary from '../components/projectsSummary';
+// import ProjectsSummary from '../components/projectsSummary';
 
 // Media imports
 import coordinatesVideo from "../assets/coordinatesMedia/coordinatesVideo.mp4";
@@ -23,7 +23,7 @@ const Coordinates = () => {
             <div className="grid m-auto md:grid-cols-2 md:max-w-screen-lg md:gap-36">
               <div className='pt-16'>
                 <SectionTitle text="Coordinates Template" />
-                <ProjectsSummary industry="Luxury Jewellery" date="2023" tech="HTML, CSS, Vanilla JavaScript, SCSS, Google Geocoding API, Shopify, Liquid, Git" />
+                {/* <ProjectsSummary industry="Luxury Jewellery" date="2023" tech="HTML, CSS, Vanilla JavaScript, SCSS, Google Geocoding API, Shopify, Liquid, Git" /> */}
               </div>
               <div>
                 <img className="w-[31rem] h-[31rem] object-cover object-top" src={coordinatesProduct} />

@@ -2,7 +2,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import SectionTitle from "../components/SectionTitle";
 import SectionSubtitle from "../components/SectionSubtitle";
-import ProjectsSummary from '../components/projectsSummary';
+// import ProjectsSummary from '../components/projectsSummary';
 
 
 
@@ -14,7 +14,7 @@ const EducationHubPage = () => {
           <section className='bg-white'>
             <div className='align-element py-16'>
               <SectionTitle text="Education Hub" />
-              <ProjectsSummary industry="Luxury Jewellery" date="2023" tech="HTML, CSS, SCSS, Liquid, Shopify" />
+              {/* <ProjectsSummary industry="Luxury Jewellery" date="2023" tech="HTML, CSS, SCSS, Liquid, Shopify" /> */}
               <div className="grid grid-cols-[60%_minmax(auto,_40%)] gap-16">
                 <article>
                   <p className='text-slate-600'>
