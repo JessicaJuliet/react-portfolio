@@ -2,7 +2,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import SectionTitle from "../components/SectionTitle";
 import SectionSubtitle from "../components/SectionSubtitle";
-// import ProjectsSummary from "../components/projectsSummary";
+import ProjectsSummary from "../components/ProjectsSummary";
 
 // Media imports
 import blogPage from "../assets/blogMedia/blogPage.png";
@@ -24,7 +24,7 @@ const shopifyBlogPage = () => {
           <div className="grid m-auto md:grid-cols-2 md:max-w-screen-lg md:gap-36">
             <div className='pt-12'>
               <SectionTitle text="Shopify Blog" />
-              {/* <ProjectsSummary industry="Luxury Jewellery" date="2023" tech="HTML, CSS, Vanilla JavaScript, SCSS, Shopify, Liquid, Matrixify app, Git" /> */}
+              <ProjectsSummary industry="Luxury Jewellery" date="2023" tech="HTML, CSS, Vanilla JavaScript, SCSS, Shopify, Liquid, Matrixify app, Git" />
             </div>
             <div>
               <img className="w-[31rem] h-[31rem] object-cover object-top" src={blogEngagement} />
