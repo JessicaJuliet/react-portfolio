@@ -101,6 +101,16 @@ export const skills = [
     },
     {
       id: nanoid(),
+      img: educationImg,
+      pageLink: "/education-hub",
+      url: 'https://www.chupi.com/pages/education',
+      github: 'https://github.com/jessicaJuliet',
+      title: 'Education Hub',
+      technology: 'HTML, CSS, SCSS, Liquid, Shopify',
+      text: "Crafted a resource to enrich the engagement ring buyer's experience. This blended a captivating design with strategic keyword integration to enhance SEO.",
+    },
+    {
+      id: nanoid(),
       img: limitedImg,
       // pageLink: "/grey-diamond-release",
       url: 'https://www.chupi.com/products/solid-gold-you-me-magic-one-carat-grey-diamond-classic-diamond-polished-band-ring',
@@ -108,16 +118,6 @@ export const skills = [
       title: 'Limited Edition Release',
       technology: 'HTML, CSS, JavaScript, Liquid, Shopify',
       text: 'Created a limited edition template which dynamically tracked stock, displaying a countdown to the next release, and allowed users to sign up and book appointments.',
-    },
-    {
-      id: nanoid(),
-      img: educationImg,
-      // pageLink: "/education-hub",
-      url: 'https://www.chupi.com/pages/education',
-      github: 'https://github.com/jessicaJuliet',
-      title: 'Education Hub',
-      technology: 'HTML, CSS, SCSS, Liquid, Shopify',
-      text: "Crafted a resource to enrich the engagement ring buyer's experience. This blended a captivating design with strategic keywork integration to enhance SEO.",
     }
   ];
 
