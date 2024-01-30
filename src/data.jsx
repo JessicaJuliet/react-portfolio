@@ -105,7 +105,7 @@ export const skills = [
       pageLink: "/engagement-page",
       url: 'https://www.chupi.com/pages/engagement',
       github: 'https://github.com/jessicaJuliet',
-      title: 'Engagement Landing Page',
+      title: 'Engagement Page',
       technology: 'HTML, CSS, JavaScript, SCSS, Liquid, Shopify',
       text: 'Developed a new Engagement page which included visually appealing category blocks, detailed product material tabs and a recommended reading section.',
     },
