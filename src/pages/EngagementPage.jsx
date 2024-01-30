@@ -23,7 +23,7 @@ const EngagementPage = () => {
         <div className="grid m-auto md:grid-cols-2 md:max-w-screen-lg md:gap-36">
           <div className='pt-12'>
             <SectionTitle text="Engagement Page" />
-            <ProjectsSummary industry="Luxury Jewellery" date="2023" tech="HTML, CSS, Vanilla JavaScript, SCSS" />
+            <ProjectsSummary industry="Luxury Jewellery" date="2023" tech="HTML, CSS, Vanilla JavaScript, SCSS" url="https://www.chupi.com/pages/engagement" />
           </div>
           <div>
             <img src={engagementPage} className="w-[31rem] h-[31rem] object-cover object-top" />
