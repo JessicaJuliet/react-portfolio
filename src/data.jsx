@@ -49,7 +49,7 @@ export const skills = [
       id: nanoid(),
       title: 'React',
       icon: <FaReact className='h-16 w-16 text-emerald-500' />,
-      text: 'Advanced proficiency in React, with a strong emphasis on component-based architecture.',
+      text: 'Currently learning and developing my skills in React.js with a strong emphasis on component-based architecture.',
     },
     {
         id: nanoid(),
